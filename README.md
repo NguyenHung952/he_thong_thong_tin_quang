@@ -2,134 +2,151 @@
 
 > Kho tài liệu học tập và ôn tập môn **Hệ thống Thông tin Quang (HTTQ)**.
 
-Repository này tập hợp giáo trình, bài giảng, tài liệu theo chương, tài liệu ôn tập và mind map phục vụ việc **học, tổng hợp kiến thức và ôn thi**. Đây là **kho tài liệu học tập**, không phải một dự án phần mềm có mã nguồn thực thi.
+Repository tập trung **giáo trình, bài giảng, tài liệu theo chương, tài liệu ôn tập và mind map** phục vụ học tập và ôn thi. Đây là **kho tài liệu học tập**, không phải dự án phần mềm có mã nguồn thực thi.
 
 ---
 
-## 📚 Nội dung Repository
+## 📚 Nội dung
 
-### 📖 Giáo trình & tài liệu nền tảng
+### 📖 `giao-trinh/`
 
-- `Giao_trinh_kttt_quang_1.pdf` — Giáo trình Kỹ thuật Thông tin Quang 1.
-- `Giao_trinh_kttt_quang_2.pdf` — Tài liệu Kỹ thuật Thông tin Quang 2.
-- `Bài giảng-20250816.zip` — Bộ bài giảng được lưu dưới dạng ZIP.
+- `Giao_trinh_kttt_quang_1.pdf`
+- `Giao_trinh_kttt_quang_2.pdf`
 
-### 📝 Tài liệu theo chương
+Tài liệu nền tảng dùng để học và tra cứu kiến thức.
 
-- `C1.pdf` → `C7.pdf` — Tài liệu được phân theo **Chương 1 đến Chương 7**.
+### 🎓 `bai-giang/`
 
-### 🎯 Tài liệu ôn tập
+- `Bài giảng-20250816.zip` — bộ bài giảng được đóng gói.
 
-- `ÔN TẬP HỆ THỐNG THÔNG TIN QUANG.pdf`
+### 📘 `chuong/`
+
+- `C1.pdf` → `C7.pdf` — tài liệu theo **Chương 1 đến Chương 7**.
+
+### 📝 `on-tap/`
+
 - `ÔN TẬP HỆ THỐNG THÔNG TIN QUANG.docx`
-- `CÂU HỎI ÔN TẬP HTTQ FULL.pdf`
+- `ÔN TẬP HỆ THỐNG THÔNG TIN QUANG.pdf`
 - `CÂU HỎI ÔN TẬP HTTQ FULL.docx`
+- `CÂU HỎI ÔN TẬP HTTQ FULL.pdf`
 
-### 🧠 Mind map & tổng hợp
+### 🧠 `mindmap/`
 
-- `MINDMAP HTTQ.pdf` — Mind map tổng hợp kiến thức.
-- `NotebookLM Mind Map.png` — Hình ảnh mind map.
+- `MINDMAP HTTQ.pdf`
+- `NotebookLM Mind Map.png`
 
 ---
 
-## 🗂️ Cấu trúc hiện tại
+## 🗂️ Cấu trúc Repository
 
 ```text
 he_thong_thong_tin_quang/
-├── Bài giảng-20250816.zip
-├── C1.pdf
-├── C2.pdf
-├── C3.pdf
-├── C4.pdf
-├── C5.pdf
-├── C6.pdf
-├── C7.pdf
-├── CÂU HỎI ÔN TẬP HTTQ FULL.docx
-├── CÂU HỎI ÔN TẬP HTTQ FULL.pdf
-├── Giao_trinh_kttt_quang_1.pdf
-├── Giao_trinh_kttt_quang_2.pdf
-├── MINDMAP HTTQ.pdf
-├── NotebookLM Mind Map.png
-├── ÔN TẬP HỆ THỐNG THÔNG TIN QUANG.docx
-├── ÔN TẬP HỆ THỐNG THÔNG TIN QUANG.pdf
+├── giao-trinh/
+│   ├── Giao_trinh_kttt_quang_1.pdf
+│   └── Giao_trinh_kttt_quang_2.pdf
+│
+├── bai-giang/
+│   └── Bài giảng-20250816.zip
+│
+├── chuong/
+│   ├── C1.pdf
+│   ├── C2.pdf
+│   ├── C3.pdf
+│   ├── C4.pdf
+│   ├── C5.pdf
+│   ├── C6.pdf
+│   └── C7.pdf
+│
+├── on-tap/
+│   ├── CÂU HỎI ÔN TẬP HTTQ FULL.docx
+│   ├── CÂU HỎI ÔN TẬP HTTQ FULL.pdf
+│   ├── ÔN TẬP HỆ THỐNG THÔNG TIN QUANG.docx
+│   └── ÔN TẬP HỆ THỐNG THÔNG TIN QUANG.pdf
+│
+├── mindmap/
+│   ├── MINDMAP HTTQ.pdf
+│   └── NotebookLM Mind Map.png
+│
 └── README.md
 ```
 
-> **Định hướng sắp xếp:** nếu tiếp tục phát triển repository, có thể phân nhóm thành `giao-trinh/`, `bai-giang/`, `chuong/`, `on-tap/` và `mindmap/`. Tuy nhiên, các tài liệu hiện tại được giữ nguyên tên và nội dung để tránh làm mất liên kết hoặc thay đổi dữ liệu gốc.
+> **Lưu ý:** Các file được phân nhóm để repository gọn và dễ tìm hơn. **Tên file và nội dung tài liệu gốc được giữ nguyên**, không tự ý gộp hoặc xóa tài liệu.
 
 ---
 
-## 🎯 Mục tiêu sử dụng
+## 🎯 Mục tiêu
 
-Repository phù hợp để:
+Repository được dùng để:
 
-- 📖 Học các kiến thức cơ bản và chuyên ngành về thông tin quang.
-- 🔦 Ôn tập các nội dung về **ánh sáng, sợi quang, nguồn quang và bộ thu quang**.
-- 📡 Tìm hiểu nguyên lý và cấu trúc **hệ thống thông tin quang**.
-- 🧮 Hệ thống hóa các công thức và khái niệm quan trọng.
-- 📝 Chuẩn bị câu hỏi và tài liệu cho **kiểm tra, thi cuối kỳ**.
-- 🧠 Sử dụng mind map để tổng hợp kiến thức nhanh trước khi thi.
+- 📖 Học kiến thức môn **Hệ thống Thông tin Quang**.
+- 🔦 Học theo từng chương từ **C1 → C7**.
+- 📐 Tra cứu khái niệm, nguyên lý và công thức.
+- 🧠 Hệ thống hóa kiến thức bằng mind map.
+- 📝 Ôn tập và chuẩn bị kiểm tra, thi cuối kỳ.
+- 🤖 Kết hợp tài liệu với ChatGPT hoặc các công cụ AI để giải thích, tóm tắt và hệ thống hóa kiến thức.
 
 ---
 
-## 🧭 Gợi ý cách học
+## 🧭 Lộ trình học đề xuất
 
 ```text
 Giáo trình / Bài giảng
         ↓
-Học theo từng chương (C1 → C7)
+Học theo chương C1 → C7
         ↓
 Tóm tắt khái niệm + công thức
         ↓
-Mind map / Tổng hợp kiến thức
+Mind map / Tổng hợp
         ↓
 Câu hỏi ôn tập
         ↓
-Luyện trả lời và ôn thi
+Luyện tập và ôn thi
 ```
 
 ### Thứ tự đề xuất
 
-1. Đọc **giáo trình hoặc bài giảng** để nắm kiến thức nền.
-2. Học lần lượt `C1 → C7`.
-3. Đối chiếu với **mind map** để hệ thống hóa kiến thức.
-4. Sử dụng bộ **câu hỏi ôn tập** để kiểm tra mức độ ghi nhớ.
-5. Trước kỳ thi, ưu tiên phần **ôn tập + câu hỏi + mind map**.
+1. Đọc giáo trình hoặc bài giảng để nắm kiến thức nền.
+2. Học lần lượt **C1 → C7**.
+3. Dùng `mindmap/` để hệ thống hóa kiến thức.
+4. Dùng `on-tap/` để luyện câu hỏi và rà soát nội dung.
+5. Trước kỳ thi, ưu tiên **ôn tập + câu hỏi + mind map**.
 
 ---
 
-## 🛠️ Định dạng tài liệu
+## 📁 Phân loại tài liệu
 
-| Định dạng | Mục đích |
+| Thư mục | Nội dung |
 |---|---|
-| `.pdf` | Giáo trình, chương học, tài liệu ôn tập, mind map |
-| `.docx` | Nội dung chỉnh sửa và câu hỏi ôn tập |
-| `.zip` | Bộ bài giảng được đóng gói |
-| `.png` | Mind map dạng hình ảnh |
+| `giao-trinh/` | Giáo trình và tài liệu nền tảng |
+| `bai-giang/` | Bộ bài giảng |
+| `chuong/` | Tài liệu Chương 1 → Chương 7 |
+| `on-tap/` | Tài liệu và câu hỏi ôn tập |
+| `mindmap/` | Mind map tổng hợp |
 
 ---
 
-## ⚠️ Lưu ý
+## ⚠️ Lưu ý sử dụng
 
-- Repository hiện chủ yếu chứa **tài liệu học tập**, không có mã nguồn ứng dụng để build hoặc chạy.
-- Nội dung tài liệu có thể thuộc bản quyền của tác giả/đơn vị phát hành tương ứng.
-- Khi sử dụng tài liệu cho mục đích khác ngoài học tập, cần kiểm tra quyền sử dụng và nguồn tài liệu.
-- README chỉ mô tả những tài liệu hiện đang có trong repository, không mặc định thêm các nội dung hoặc chương chưa xuất hiện trong repo.
+- Repository hiện là **kho tài liệu học tập**, không có mã nguồn ứng dụng để build/run.
+- Việc sắp xếp thư mục chỉ nhằm tổ chức tài liệu, không thay đổi nội dung gốc.
+- Một số tài liệu có thể thuộc bản quyền của tác giả hoặc đơn vị phát hành tương ứng.
+- Khi sử dụng ngoài mục đích học tập, cần kiểm tra quyền sử dụng tài liệu.
 
 ---
 
-## 📊 Trạng thái Repository
+## 📊 Thông tin Repository
 
-**Loại:** Kho tài liệu học tập  
-**Chủ đề:** Hệ thống Thông tin Quang  
-**Nội dung chính:** Giáo trình · Bài giảng · Chương học · Ôn tập · Mind map
+- **Tên:** `he_thong_thong_tin_quang`
+- **Chủ đề:** Hệ thống Thông tin Quang (HTTQ)
+- **Loại:** Kho tài liệu học tập
+- **Nội dung:** Giáo trình · Bài giảng · Chương học · Ôn tập · Mind map
 
 ---
 
 ## 🔗 Repository
 
-[GitHub – he_thong_thong_tin_quang](https://github.com/NguyenHung952/he_thong_thong_tin_quang)
+https://github.com/NguyenHung952/he_thong_thong_tin_quang
 
 ---
 
-> 📡 **Hệ thống hóa tài liệu — học theo chương — tổng hợp bằng mind map — luyện bằng câu hỏi ôn tập.**
+> 📡 **Học theo chương → hệ thống hóa kiến thức → mind map → ôn tập → luyện thi.**
