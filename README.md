@@ -1,216 +1,135 @@
-# 🌐 Kỹ Thuật Thông Tin Quang 1
+# 📡 Hệ Thống Thông Tin Quang
 
-> **Giáo trình chính thức dành cho sinh viên hệ đào tạo đại học từ xa**  
-> *Học viện Công nghệ Bưu chính Viễn thông*
+> Kho tài liệu học tập và ôn tập môn **Hệ thống Thông tin Quang (HTTQ)**.
 
-[![PDF](https://img.shields.io/badge/Tài%20liệu-PDF-red.svg)](./Giao_trinh_kttt_quang_1.pdf)
-[![Language](https://img.shields.io/badge/Ngôn%20ngữ-Tiếng%20Việt-green.svg)]()
-[![Pages](https://img.shields.io/badge/Số%20trang-198-orange.svg)]()
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+Repository này tập hợp giáo trình, bài giảng, tài liệu theo chương, tài liệu ôn tập và mind map phục vụ việc **học, tổng hợp kiến thức và ôn thi**. Đây là **kho tài liệu học tập**, không phải một dự án phần mềm có mã nguồn thực thi.
 
 ---
 
-## 📡 Giới thiệu
+## 📚 Nội dung Repository
 
-Chào mừng bạn đến với **Kho tài liệu Kỹ thuật Thông tin Quang** – một trong những lĩnh vực cốt lõi của viễn thông hiện đại!
+### 📖 Giáo trình & tài liệu nền tảng
 
-Giáo trình này được biên soạn bởi đội ngũ giảng viên giàu kinh nghiệm của Học viện Công nghệ Bưu chính Viễn thông, dành riêng cho sinh viên hệ đào tạo từ xa. Tài liệu cung cấp kiến thức từ cơ bản đến chuyên sâu về **hệ thống thông tin quang**, bao gồm:
+- `Giao_trinh_kttt_quang_1.pdf` — Giáo trình Kỹ thuật Thông tin Quang 1.
+- `Giao_trinh_kttt_quang_2.pdf` — Tài liệu Kỹ thuật Thông tin Quang 2.
+- `Bài giảng-20250816.zip` — Bộ bài giảng được lưu dưới dạng ZIP.
 
-- 💡 **Bản chất ánh sáng** và các hiện tượng quang học
-- 📍 **Sợi quang** – cấu tạo, phân loại, đặc tính truyền dẫn
-- 🔦 **Nguồn quang** – LED, LASER và các công nghệ phát xạ
-- 📷 **Bộ thu quang** – PIN, APD, nhiễu, độ nhạy
-- 🧩 **Hệ thống thông tin quang** – thiết kế, WDM, OTDM, CDM
+### 📝 Tài liệu theo chương
 
----
+- `C1.pdf` → `C7.pdf` — Tài liệu được phân theo **Chương 1 đến Chương 7**.
 
-## 📚 Nội dung môn học
+### 🎯 Tài liệu ôn tập
 
-### Chương 1: Tổng Quan về Kỹ Thuật Thông Tin Quang
-- Lịch sử phát triển (từ tín hiệu khói đến cáp quang biển)
-- Cấu trúc cơ bản của hệ thống thông tin quang
-- Ưu – nhược điểm của cáp sợi quang so với cáp đồng
-- Ứng dụng trong viễn thông, truyền hình, y học, quân sự…
+- `ÔN TẬP HỆ THỐNG THÔNG TIN QUANG.pdf`
+- `ÔN TẬP HỆ THỐNG THÔNG TIN QUANG.docx`
+- `CÂU HỎI ÔN TẬP HTTQ FULL.pdf`
+- `CÂU HỎI ÔN TẬP HTTQ FULL.docx`
 
-### Chương 2: Sợi Quang
-- Bản chất sóng – hạt của ánh sáng, chiết suất, phản xạ toàn phần
-- Khẩu độ số (NA) – điều kiện ghép ánh sáng vào sợi
-- Phân loại sợi: SI, GI, đa mode, đơn mode
-- Lý thuyết Maxwell, mode sóng, tần số chuẩn hóa V
-- Suy hao: hấp thụ, tán xạ Rayleigh, uốn cong
-- Tán sắc: mode, vật liệu, ống dẫn sóng, phân cực mode
-- Các hiệu ứng phi tuyến: SBS, SRS, SPM, CPM, FWM
-- Các loại sợi mới: DSF, NZ-DSF, LEAF, sợi tán sắc âm/dương
-- Công nghệ sản xuất sợi và cấu trúc cáp quang
+### 🧠 Mind map & tổng hợp
 
-### Chương 3: Bộ Phát Quang
-- Mức năng lượng, các hiện tượng: hấp thụ, phát xạ tự phát, phát xạ kích thích
-- LED: cấu tạo, đặc tuyến P-I, phổ, các loại SLED, ELED
-- LASER: nguyên lý hoạt động, hốc cộng hưởng Fabry-Perot, điều kiện ngưỡng
-- Phương trình tốc độ, trạng thái tĩnh và động
-- Đặc tính kỹ thuật: P-I, góc phát, hiệu suất ghép, độ rộng phổ, ảnh hưởng nhiệt độ
-- LASER đơn mode: DFB, DBR, hốc cộng hưởng ghép
-- Mạch phát quang: điều chế trực tiếp, điều chế ngoài (MZM, EA)
-
-### Chương 4: Bộ Thu Quang
-- Nguyên lý chung và thông số cơ bản: đáp ứng R, hiệu suất lượng tử η, bước sóng cắt
-- Photodiode PIN: cấu tạo, đặc tuyến V-I, mạch biến đổi dòng – áp
-- Photodiode APD: cơ chế thác lũ, hệ số nhân M, ưu nhược điểm
-- Nhiễu trong bộ thu: nhiễu lượng tử, nhiễu nhiệt, dòng tối
-- Tỉ số SNR, công suất nhiễu tương đương NEP
-- Tỉ số lỗi bit BER, hàm xác suất lỗi Q(x), độ nhạy của bộ thu
-- Bộ tiền khuếch đại: trở kháng thấp, trở kháng cao, hồi tiếp
-- Thời gian lên, bộ lọc, mạch quyết định và biểu đồ mắt
-
-### Chương 5: Hệ Thống Thông Tin Quang
-- Kiến trúc hệ thống: điểm – điểm, mạng quảng bá, LAN
-- Ảnh hưởng của suy hao và tán sắc đến thiết kế
-- Quỹ công suất và quỹ thời gian lên
-- Các yếu tố ảnh hưởng chất lượng: nhiễu mode, dãn xung, MPN, phản xạ
-- Phân loại hệ thống: analog/digital, IM/DD, coherent
-- Các kỹ thuật ghép kênh: WDM, OTDM, SCM, CDM
+- `MINDMAP HTTQ.pdf` — Mind map tổng hợp kiến thức.
+- `NotebookLM Mind Map.png` — Hình ảnh mind map.
 
 ---
 
-## 📊 Thông tin môn học
+## 🗂️ Cấu trúc hiện tại
 
-| Nội dung | Chi tiết |
-|----------|----------|
-| **Số tiết** | 42 (Lý thuyết: 28, Bài tập: 14) |
-| **Kiểm tra giữa kỳ** | 30% (60 phút) |
-| **Bài tập về nhà** | 20% |
-| **Thi cuối kỳ** | 50% (90 phút) |
+```text
+he_thong_thong_tin_quang/
+├── Bài giảng-20250816.zip
+├── C1.pdf
+├── C2.pdf
+├── C3.pdf
+├── C4.pdf
+├── C5.pdf
+├── C6.pdf
+├── C7.pdf
+├── CÂU HỎI ÔN TẬP HTTQ FULL.docx
+├── CÂU HỎI ÔN TẬP HTTQ FULL.pdf
+├── Giao_trinh_kttt_quang_1.pdf
+├── Giao_trinh_kttt_quang_2.pdf
+├── MINDMAP HTTQ.pdf
+├── NotebookLM Mind Map.png
+├── ÔN TẬP HỆ THỐNG THÔNG TIN QUANG.docx
+├── ÔN TẬP HỆ THỐNG THÔNG TIN QUANG.pdf
+└── README.md
+```
 
----
-
-## 🔬 Các khái niệm quan trọng
-
-| Thuật ngữ | Ý nghĩa |
-|-----------|---------|
-| **NA** | Khẩu độ số – khả năng thu nhận ánh sáng của sợi |
-| **V** | Tần số chuẩn hóa – xác định số mode truyền |
-| **α** | Hệ số suy hao [dB/km] |
-| **D** | Hệ số tán sắc [ps/nm.km] |
-| **P-I** | Đặc tuyến công suất – dòng điện của nguồn quang |
-| **η** | Hiệu suất lượng tử của photodiode |
-| **BER** | Tỉ số lỗi bit – thước đo chất lượng hệ thống |
-| **SNR** | Tỉ số tín hiệu trên nhiễu |
-| **WDM** | Ghép kênh phân chia theo bước sóng |
-| **OTDM** | Ghép kênh phân chia theo thời gian quang |
-
----
-
-## 🛠️ Công thức quan trọng
-
-### Suy hao sợi quang
-\[
-\alpha(\text{dB/km}) = \frac{10}{L} \log_{10}\left(\frac{P_{\text{in}}}{P_{\text{out}}}\right)
-\]
-
-### Khẩu độ số
-\[
-NA = \sqrt{n_1^2 - n_2^2}
-\]
-
-### Tần số chuẩn hóa
-\[
-V = \frac{2\pi}{\lambda} \cdot a \cdot NA
-\]
-
-### Đáp ứng của photodiode
-\[
-R = \frac{\eta e}{h f} = \frac{\eta \lambda}{1,24} \quad [\text{A/W}]
-\]
-
-### Tỉ số lỗi bit (Gaussian)
-\[
-BER = Q\left(\frac{\sqrt{SNR}}{2}\right)
-\]
-
-### Độ nhạy bộ thu (PIN)
-\[
-P_0 = \frac{Z_m h f B_T}{2}
-\]
+> **Định hướng sắp xếp:** nếu tiếp tục phát triển repository, có thể phân nhóm thành `giao-trinh/`, `bai-giang/`, `chuong/`, `on-tap/` và `mindmap/`. Tuy nhiên, các tài liệu hiện tại được giữ nguyên tên và nội dung để tránh làm mất liên kết hoặc thay đổi dữ liệu gốc.
 
 ---
 
-## 📖 Tài liệu tham khảo
+## 🎯 Mục tiêu sử dụng
 
-### Giáo trình chính
-- 📘 **Vũ Văn San** – *Hệ thống Thông Tin Quang*, tập 1, NXB Bưu Điện, 2003
+Repository phù hợp để:
 
-### Tài liệu tiếng Anh
-- 📗 J. M. Senior – *Optical Fiber Communications: Principles and Practice*, 2nd ed., Prentice Hall, 1993
-- 📗 G. Keiser – *Optical Fiber Communications*, 3rd ed., McGraw-Hill, 2000
-- 📗 J. Gowar – *Optical Communication Systems*, 2nd ed., Prentice-Hall, 1993
-- 📗 G. P. Agrawal – *Fiber-Optic Communication Systems*, 2nd ed., John Wiley & Sons, 1997
-- 📗 Max Ming-Kang Liu – *Principles and Applications of Optical Communications*, 2001
-
----
-
-## 🌟 Ứng dụng thực tế
-
-| Lĩnh vực | Ứng dụng cụ thể |
-|----------|-----------------|
-| **Viễn thông đường dài** | Mạng trục quốc gia, cáp biển xuyên đại dương |
-| **Mạng đô thị (MAN)** | Kết nối các tổng đài, trung tâm dữ liệu |
-| **Truyền hình cáp (CATV)** | Phân phối tín hiệu video chất lượng cao |
-| **Mạng LAN** | Kết nối máy tính tốc độ cao trong khuôn viên |
-| **Y học** | Nội soi, laser phẫu thuật |
-| **Quân sự** | Radar quang, liên lạc an toàn |
-| **Công nghiệp** | Điều khiển tự động, đo lường |
+- 📖 Học các kiến thức cơ bản và chuyên ngành về thông tin quang.
+- 🔦 Ôn tập các nội dung về **ánh sáng, sợi quang, nguồn quang và bộ thu quang**.
+- 📡 Tìm hiểu nguyên lý và cấu trúc **hệ thống thông tin quang**.
+- 🧮 Hệ thống hóa các công thức và khái niệm quan trọng.
+- 📝 Chuẩn bị câu hỏi và tài liệu cho **kiểm tra, thi cuối kỳ**.
+- 🧠 Sử dụng mind map để tổng hợp kiến thức nhanh trước khi thi.
 
 ---
 
-## 🧠 Lợi ích khi học môn này
+## 🧭 Gợi ý cách học
 
-- 🚀 Nắm vững **công nghệ lõi** của mạng viễn thông hiện đại
-- 🧪 Hiểu sâu về **sợi quang, nguồn quang, máy thu** và **hệ thống**
-- 📈 Có nền tảng để tiếp cận các công nghệ tiên tiến: **WDM, OTDM, coherent**
-- 🔧 Phát triển kỹ năng **thiết kế và tính toán quỹ công suất, quỹ thời gian**
-- 💡 Định hướng nghề nghiệp trong lĩnh vực **truyền dẫn, mạng quang, R&D**
+```text
+Giáo trình / Bài giảng
+        ↓
+Học theo từng chương (C1 → C7)
+        ↓
+Tóm tắt khái niệm + công thức
+        ↓
+Mind map / Tổng hợp kiến thức
+        ↓
+Câu hỏi ôn tập
+        ↓
+Luyện trả lời và ôn thi
+```
+
+### Thứ tự đề xuất
+
+1. Đọc **giáo trình hoặc bài giảng** để nắm kiến thức nền.
+2. Học lần lượt `C1 → C7`.
+3. Đối chiếu với **mind map** để hệ thống hóa kiến thức.
+4. Sử dụng bộ **câu hỏi ôn tập** để kiểm tra mức độ ghi nhớ.
+5. Trước kỳ thi, ưu tiên phần **ôn tập + câu hỏi + mind map**.
 
 ---
 
-## 🧑‍🏫 Hướng dẫn sử dụng
+## 🛠️ Định dạng tài liệu
 
-1. **Đọc lý thuyết** theo thứ tự chương, chú ý các phần tóm tắt và câu hỏi ôn tập.
-2. **Làm bài tập** cuối mỗi chương để củng cố kiến thức (có đáp án ở cuối sách).
-3. **Thực hành tính toán** các công thức suy hao, tán sắc, SNR, BER, quỹ công suất…
-4. **Tham khảo thêm** các tài liệu tiếng Anh để mở rộng hiểu biết.
-5. **Sử dụng cùng** bài giảng và slide trên lớp để ôn thi.
-
----
-
-## 🤝 Đóng góp
-
-Nếu bạn phát hiện lỗi đánh máy, sai sót nội dung hoặc muốn bổ sung tài liệu, vui lòng:
-
-1. 🍴 Fork repository
-2. ✏️ Chỉnh sửa hoặc bổ sung
-3. 📫 Gửi Pull Request
-
-Mọi đóng góp đều được hoan nghênh!
+| Định dạng | Mục đích |
+|---|---|
+| `.pdf` | Giáo trình, chương học, tài liệu ôn tập, mind map |
+| `.docx` | Nội dung chỉnh sửa và câu hỏi ôn tập |
+| `.zip` | Bộ bài giảng được đóng gói |
+| `.png` | Mind map dạng hình ảnh |
 
 ---
 
 ## ⚠️ Lưu ý
 
-- Tài liệu được biên soạn cho mục đích **học tập và tham khảo nội bộ**.
-- Không sử dụng cho mục đích thương mại.
-- Vui lòng giữ nguyên bản quyền và trích dẫn nguồn khi sử dụng.
+- Repository hiện chủ yếu chứa **tài liệu học tập**, không có mã nguồn ứng dụng để build hoặc chạy.
+- Nội dung tài liệu có thể thuộc bản quyền của tác giả/đơn vị phát hành tương ứng.
+- Khi sử dụng tài liệu cho mục đích khác ngoài học tập, cần kiểm tra quyền sử dụng và nguồn tài liệu.
+- README chỉ mô tả những tài liệu hiện đang có trong repository, không mặc định thêm các nội dung hoặc chương chưa xuất hiện trong repo.
 
 ---
 
-## 📞 Liên hệ
+## 📊 Trạng thái Repository
 
-- 🏫 **Học viện Công nghệ Bưu chính Viễn thông**
-- 📧 (Liên hệ qua các kênh đào tạo của Học viện)
-
----
-
-## 🌟 Đừng quên ⭐ Star và Share để ủng hộ nhé!
+**Loại:** Kho tài liệu học tập  
+**Chủ đề:** Hệ thống Thông tin Quang  
+**Nội dung chính:** Giáo trình · Bài giảng · Chương học · Ôn tập · Mind map
 
 ---
 
-**Made with ❤️ for students of Optical Communications**
+## 🔗 Repository
+
+[GitHub – he_thong_thong_tin_quang](https://github.com/NguyenHung952/he_thong_thong_tin_quang)
+
+---
+
+> 📡 **Hệ thống hóa tài liệu — học theo chương — tổng hợp bằng mind map — luyện bằng câu hỏi ôn tập.**
